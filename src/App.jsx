@@ -3,7 +3,7 @@ import Hero from './Pages/Hero'
 import AboutMe from './Pages/AboutMe'
 import Projects from './Pages/Projects'
 import Certificates from './Pages/Certificates'
-import conta
+import ContactMe from './Pages/ContactMe'
 import './App.css'
 
 
@@ -17,6 +17,7 @@ function App() {
       <AboutMe/>
       <Projects/>
       <Certificates/>
+      <ContactMe/>
     </>
   )
 }

@@ -1,10 +1,11 @@
 import React from 'react'
+import { Element } from 'react-scroll'
 
 function Hero() {
     return (
-        <div className='h-screen bg-slate-400 flex justify-center items-center'>
-            <h1>Hello</h1>
-        </div>
+        <Element name='Hero' className='h-screen bg-slate-200 flex justify-center items-center'>
+            <h1>Home</h1>
+        </Element>
     )
 }
 

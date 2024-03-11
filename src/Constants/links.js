@@ -1,16 +1,18 @@
+import github from '../assets/logos/github.png'
+
 export const links = [
     {
-        logo: "woah",
+        logo: github,
         alt: "Github",
         link: "https://github.com/LOOOOOOK12",
     },
     {
-        logo: "Woah",
+        logo: github,
         alt: "Github",
         link: "https://github.com/LOOOOOOK12",
     },
     {
-        logo: "woah",
+        logo: github,
         alt: "Github",
         link: "https://github.com/LOOOOOOK12",
     },

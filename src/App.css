@@ -3,4 +3,5 @@
 *{
     font-family: 'Chivo', sans-serif;
     color: rgb(244 244 245);
+    scroll-behavior: smooth;
 }

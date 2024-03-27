@@ -1,5 +1,6 @@
 import SysAd from '../assets/certificates/SysAd.png'
 import JavaFoundation from '../assets/certificates/Java.png'
+import SAP from '../assets/certificates/SAP.png'
 
 export const certificates = [
     {
@@ -11,5 +12,10 @@ export const certificates = [
         certificate:JavaFoundation,
         title:"Java",
         alt:"Java Certificate",
+    },
+    {
+        certificate:SAP,
+        title:"SAP Business One",
+        alt:"SAP Certificate",
     },
 ]

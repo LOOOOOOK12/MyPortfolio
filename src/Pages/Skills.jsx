@@ -2,8 +2,8 @@ import React from 'react'
 
 function Skills() {
     return (
-        <div>
-            
+        <div className='h-screen flex items-center justify-center bg-slate-500'>
+            skills
         </div>
     )
 }

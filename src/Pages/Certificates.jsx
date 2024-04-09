@@ -14,7 +14,7 @@ export default function Certificates() {
     return (
         <div id='Certificates' className='p-24 bg-slate-700 flex flex-col gap-16 justify-center items-center'>
             <h1 className='text-5xl'>Certificates</h1>
-            <div className='grid md:grid-cols-3 gap-6'>
+            <div className='grid md:grid-cols-3 gap-10'>
                 {certificates.map((m)=>(
                     <CertiContainer
                         certificate = {m.certificate}

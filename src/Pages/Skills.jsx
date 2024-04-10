@@ -17,21 +17,38 @@ function SkillsContainer({logo,alt,title}) {
 
 function Skills() {
     return (
-        <div className='flex flex-col items-center justify-center py-20 px-16 bg-slate-500'>
+        <div className='flex flex-col items-center justify-center py-20 px-16 gap- bg-slate-500'>
+
             <h1 className='text-6xl mb-8'>Skills</h1>
                 <Swiper
                     modules={[Autoplay,FreeMode]}
                     slidesPerView={5}
+                    spaceBetween={20}
                     freeMode ={{
                         enabled: true,
-                        momentum: true
+                        momentum: true,
+                        minimumVelocity: 1
                     }}
                     autoplay = {{
                     disableOnInteraction:false,
-                    delay: 5000
+                    delay: 3000
                     }}
+                    breakpoints={{
+                            375: {
+                                slidesPerView: 1,
+                            },
+                            425: {
+                                slidesPerView: 2,
+                            },
+                            640: {
+                                slidesPerView: 3,
+                            },
+                            768: {
+                                slidesPerView: 5,
+                            },
+                        }}
                     loop
-                    className='h-full w-full flex justify-center'
+                    className='h-full w-full flex justify-center items-center'
                     >
                     {skills.map((skill,idx)=>(
                         <SwiperSlide key={idx}>

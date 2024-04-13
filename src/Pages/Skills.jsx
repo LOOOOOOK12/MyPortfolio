@@ -18,7 +18,6 @@ function SkillsContainer({logo,alt,title}) {
 function Skills() {
     return (
         <div className='flex flex-col items-center justify-center py-20 px-16 gap- bg-slate-500'>
-
             <h1 className='text-6xl mb-8'>Skills</h1>
                 <Swiper
                     modules={[Autoplay,FreeMode]}

@@ -17,7 +17,7 @@ export const projects = [
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing elit, sed do eiusmod ",
         github:"https://github.com/LOOOOOOK12/Booking-Website",
         link:"https://booking-website-theta.vercel.app/Home",
-        language:["javascript","java","python"]
+        language:["Javascript","Java","Python"]
     },
     {
         image: js,
@@ -26,6 +26,6 @@ export const projects = [
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing elit, sed do eiusmod ",
         github:"https://github.com/LOOOOOOK12/Booking-Website",
         link:"https://booking-website-theta.vercel.app/Home",
-        language:["javascript","java","python"]
+        language:["Javascript","Java","Python"]
     }
 ]

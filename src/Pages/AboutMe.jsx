@@ -4,7 +4,7 @@ import sampleCv from '../assets/files/sample.pdf'
 
 function AboutMe() {
     return (
-        <div id='AboutMe' className='p-16 gap-20 bg-slate-800 flex flex-col items-center md:flex-row'>
+        <div id='AboutMe' className='p-16 gap-20 flex flex-col items-center md:flex-row'>
             <img src={image} alt="" className='h-[30rem] w-[25rem]'/>
             <div className='flex flex-col gap-8 w-auto'>
                 <h1 className='text-6xl'>About Me</h1>

@@ -28,8 +28,8 @@ function Hero() {
             </Swiper>
             <div className='flex flex-col items-center gap-5 z-10'>
                 <img src={pfp} alt="" className='h-52 rounded-full' />
-                <h1 className=' text-3xl'>Luke Symon A. Alamil</h1>
-                <h1 className='text-2xl'>Web Developer</h1>
+                <h1 className=' text-5xl'>Luke Symon A. Alamil</h1>
+                <h1 className='text-2xl'>💻 Aspiring Web Developer 💻</h1>
             </div>
         </div>
     )

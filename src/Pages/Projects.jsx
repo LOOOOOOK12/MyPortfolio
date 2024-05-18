@@ -6,7 +6,7 @@ function Projects() {
     return (
         <div id='Projects' className='p-16 flex flex-col gap-14 justify-center items-center'>
             <h1 className='text-6xl'>Projects</h1>
-            <div className=' flex flex-col gap-28'>
+            <div className=' flex flex-col items-center justify-center gap-28'>
                 {projects.map((p)=>(
                     <ProjectContainer
                         image = {p.image}

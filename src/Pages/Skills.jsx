@@ -18,7 +18,8 @@ function SkillsContainer({logo,alt,title}) {
 function Skills() {
     return (
         <div className='flex flex-col items-center justify-center py-20 px-16 gap-2'>
-            <h1 className='text-6xl mb-8'>Skills</h1>
+            <h1 className='text-6xl mb-8'>Technologies</h1>
+            <h2 className='text-3xl mb-8'>That I used are...</h2>
                 <Swiper
                     modules={[Autoplay,FreeMode]}
                     slidesPerView={5}

@@ -5,7 +5,7 @@ import Link from '../assets/logos/projectsLogo/link.png'
 function projectContainer({image,alt,title,desc,language,github,link}) {
     return (
         <div className='flex flex-col md:flex-row gap-8 justify-center items-center w-full'>
-            <img src={image} alt={alt} className='h-48 w-[500px] rounded-md'/>
+            <img src={image} alt={alt} className='h-[300px] w-[500px] rounded-md'/>
             <div className='flex flex-col gap-3 w-auto'>
                 <h1 className='text-3xl'>{title}</h1>
                 <p className='text-left'>{desc}</p>

@@ -8,7 +8,7 @@ function AboutMe() {
             <img src={image} alt="" className='h-[30rem] w-[25rem] rounded-md'/>
             <div className='flex flex-col gap-8 w-auto'>
                 <h1 className='text-6xl'>About Me</h1>
-                <p className='text-2xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ducimus vel ipsa vitae temporibus 
+                <p className='text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ducimus vel ipsa vitae temporibus 
                     iste praesentium minus nam velit, rem dicta, molestiae perferendis dolore illum dolores nemo veritatis. Repellat, deserunt.
                 </p>
                 <a className="underline underline-offset-8" href={sampleCv} download >Download CV</a>

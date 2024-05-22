@@ -4,7 +4,7 @@ import ProjectContainer from '../Components/projectContainer'
 
 function Projects() {
     return (
-        <div id='Projects' className='p-16 flex flex-col gap-14 justify-center items-center'>
+        <div id='Projects' className='p-14 flex flex-col gap-14 justify-center items-center'>
             <h1 className='text-6xl'>Projects</h1>
             <div className=' flex flex-col items-center justify-center gap-16'>
                 {projects.map((p)=>(

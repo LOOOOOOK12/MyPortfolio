@@ -9,7 +9,7 @@ import 'swiper/css';
 
 function Hero() {
     return (
-        <div id='Hero' className='h-screen relative flex flex-col justify-center items-center'>
+        <div id='Hero' className='h-screen relative flex flex-col justify-center items-center text-center'>
             <Swiper
                 modules={[Autoplay,EffectFade]}
                 effect='fade'

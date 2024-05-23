@@ -3,6 +3,7 @@ import personalWebsite from "../assets/logos/projectsLogo/personalWebsite.png"
 import appleWebsite from "../assets/logos/projectsLogo/Apples.png"
 import dreamSnare from "../assets/logos/projectsLogo/dreamSnare.png"
 import BookingWebsite from "../assets/logos/projectsLogo/bookingWebsite.png"
+
 export const projects = [
     {
         image: personalWebsite,
@@ -29,7 +30,7 @@ export const projects = [
         desc: "Dream Saver website where you can write your recent dreams!!! (SERN Stack)",
         github:"https://github.com/LOOOOOOK12/DreamSnare",
         link:"https://github.com/LOOOOOOK12/DreamSnare",
-        language:["ReactJs","SQL","NextJs","ExpressJs","Tailwind"]
+        language:["SQL","ExpressJs","ReactJs","NextJs","TailwindCss"]
     },
     {
         image: BookingWebsite,

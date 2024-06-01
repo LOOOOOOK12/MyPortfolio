@@ -5,7 +5,7 @@ import sampleCv from '../assets/files/sample.pdf'
 function AboutMe() {
     return (
         <div id='AboutMe' className='p-8 gap-10 flex flex-col justify-center items-center w-full md:flex-row'>
-            <img src={image} alt="proofule" className='h-[25rem] w-[25rem] md:w-[750px] md:h-[500px] rounded-md'/>
+            <img src={image} alt="proofule" className='h-[25rem] w-[25rem] md:w-[750px] md:h-[400px] rounded-md'/>
             <div className='flex flex-col gap-8'>
                 <h1 className='text-6xl'>About Me</h1>
                 <p className='text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ducimus vel ipsa vitae temporibus 

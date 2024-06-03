@@ -8,10 +8,10 @@ function projectContainer({image,alt,title,desc,language,github,link}) {
             <img src={image} alt={alt} className='h-[300px] w-full rounded-md md:w-[450px]'/>
             <div className='flex flex-col gap-3 w-full'>
                 <h1 className='text-4xl'>{title}</h1>
-                <p className='text-left'>{desc}</p>
-                <div className='grid grid-cols-3 gap-2'>
+                <p className='text-left leading-relaxed'>{desc}</p>
+                <div className='grid grid-cols-3 gap-3'>
                     {language.map((lang,idx) =>( 
-                        <h1 key={idx} className='bg-[#0c1727] text-sm text-center px-2 rounded-full border border-[#8a8a8a]'>{lang}</h1> 
+                        <h1 key={idx} className='bg-[#0c1727] text-sm text-center py-1 rounded-full border border-[#8a8a8a]'>{lang}</h1> 
                     ))}
                 </div>
                 <div className='flex gap-3'>

@@ -17,7 +17,7 @@ function SkillsContainer({logo,alt,title}) {
 
 function Skills() {
     return (
-        <div className='flex flex-col items-center justify-center p-8 gap-2'>
+        <div className='flex flex-col items-center justify-center p-8 gap-4'>
             <h1 className=' text-5xl md:text-6xl mb-8'>Technologies</h1>
             <h2 className='text-3xl mb-8'>That I used are...</h2>
                 <Swiper
@@ -27,11 +27,14 @@ function Skills() {
                     freeMode ={{
                         enabled: true,
                         momentum: true,
-                        minimumVelocity: 1
+                        minimumVelocity: 0.02,
+                        momentumVelocityRatio: 1,
+                        momentumRatio: 1,
+                        momentumBounce: false
                     }}
                     autoplay = {{
-                    disableOnInteraction:false,
-                    delay: 3000
+                        delay: 2000,
+                        disableOnInteraction: false
                     }}
                     breakpoints={{
                             375: {

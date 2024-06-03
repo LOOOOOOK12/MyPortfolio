@@ -8,10 +8,10 @@ function AboutMe() {
             <img src={image} alt="proofule" className='h-[25rem] w-[25rem] md:w-[750px] md:h-[400px] rounded-md'/>
             <div className='flex flex-col gap-8'>
                 <h1 className='text-6xl'>About Me</h1>
-                <p className='text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ducimus vel ipsa vitae temporibus 
+                <p className='text-xl leading-relaxed'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ducimus vel ipsa vitae temporibus 
                     iste praesentium minus nam velit, rem dicta, molestiae perferendis dolore illum dolores nemo veritatis. Repellat, deserunt.
                 </p>
-                <a className="underline underline-offset-8" href={sampleCv} download >Download CV</a>
+                <a className="underline underline-offset-8 hover:text-primary transition ease-in delay-75 text-2xl" href={sampleCv} download >Download CV</a>
             </div>
         </div>
     )

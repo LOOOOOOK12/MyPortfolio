@@ -18,11 +18,11 @@ function Hero() {
                 delay: 5000
                 }}
                 loop
-                className='absolute w-full h-full'
+                className='absolute md:top-3 md:bottom-0 md:right-8 w-[35rem] h-[35rem] rounded-full '
                 >
                 {heroSwiper.map((img,idx)=>(
                     <SwiperSlide key={idx} className='w-full h-full'>
-                        <img src={img.image} alt={img.alt} className='absolute brightness-[.33] h-full w-full object-cover -z-10'/>
+                        <img src={img.image} alt={img.alt} className='absolute brightness-[.40] h-full w-full object-cover -z-10'/>
                     </SwiperSlide>  
                 ))}
             </Swiper>

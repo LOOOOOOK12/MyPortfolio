@@ -11,7 +11,7 @@ export const projects = [
         title:"Personal Website",
         desc: "Personal Website / getting to know more of Me!",
         github:"https://github.com/LOOOOOOK12/Profile",
-        link:"looooook.netlify.app",
+        link:"https://looooook.netlify.app",
         language:["Html","Css","Javascript","Swiper-Js"]
     },
     {

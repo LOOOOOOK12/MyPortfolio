@@ -12,7 +12,7 @@ function CertiContainer({certificate,alt,title}) {
 
 export default function Certificates() {
     return (
-        <div id='Certificates' className='p-8 flex flex-col gap-16 justify-center items-center'>
+        <div id='Certificates' className='p-8 flex flex-col gap-16 justify-center items-center bg-transparent'>
             <h1 className='text-5xl md:text-6xl font-semibold'>Certificates</h1>
             <div className='grid md:grid-cols-3 gap-10'>
                 {certificates.map((m)=>(

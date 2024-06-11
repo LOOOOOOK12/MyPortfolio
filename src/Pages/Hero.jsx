@@ -9,7 +9,7 @@ import 'swiper/css';
 
 function Hero() {
     return (
-        <div id='Hero' className='h-screen relative flex flex-col justify-center items-center text-center'>
+        <div id='Hero' className='h-screen relative overflow-hidden flex flex-col justify-center items-center text-center'>
             <Swiper
                 modules={[Autoplay,EffectFade]}
                 effect='fade'
@@ -18,7 +18,7 @@ function Hero() {
                 delay: 5000
                 }}
                 loop
-                className='absolute md:top-3 md:bottom-0 md:right-8 w-[35rem] h-[35rem] rounded-full '
+                className='absolute top-[3rem] md:top-[2rem] md:bottom-0 md:right-1 size-[30rem] rounded-full '
                 >
                 {heroSwiper.map((img,idx)=>(
                     <SwiperSlide key={idx} className='w-full h-full'>

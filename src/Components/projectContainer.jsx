@@ -1,8 +1,8 @@
-import React from 'react'
 import Github from '../assets/logos/projectsLogo/github.png'
 import Link from '../assets/logos/projectsLogo/link.png'
 
 function projectContainer({image,alt,title,desc,language,github,link}) {
+
     return (
         <div className='flex flex-col gap-8 p-4 bg-[#101014] border-[1px] border-[#3f3f3f] rounded-md  w-full justify-center items-center md:flex-row md:max-w-3xl'>
             <img src={image} alt={alt} className='h-[300px] w-full rounded-md md:w-[450px]'/>

@@ -17,7 +17,7 @@ function SkillsContainer({logo,alt,title}) {
 
 function Skills() {
     return (
-        <div className='flex flex-col items-center justify-center p-8 gap-4'>
+        <div className='flex flex-col items-center justify-center p-8 gap-4 bg-transparent'>
             <h1 className='text-4xl md:text-6xl font-semibold mb-8'>Technologies</h1>
             <h2 className='text-2xl md:text-3xl mb-8'>That I used are...</h2>
                 <Swiper

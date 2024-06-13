@@ -6,7 +6,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/autoplay';
 import 'swiper/css';
 
-function SkillsContainer({logo,alt,title}) {
+export function SkillsContainer({logo,alt,title}) {
     return (
         <div className='flex flex-col items-center justify-center gap-4'>
             <img className='h-32' src={logo} alt={alt} />

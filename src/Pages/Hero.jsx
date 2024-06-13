@@ -31,7 +31,7 @@ function Hero() {
             </Swiper>
             <Marquee
                 gradientColor="#050d18"
-            className='absolute rotate-[-35deg] top-0 right-[11rem] -z-30'>
+            className='absolute rotate-[-28deg] -top-10 -left-28 -z-30'>
             {skills.map((skill)=>(
                 <img src={skill.logo} alt={skill.alt} className='h-[8rem] mr-10 opacity-45' />
             ))}

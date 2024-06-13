@@ -33,7 +33,7 @@ function Hero() {
                 className='absolute rotate-[-28deg] -top-10 -left-28 w-full'>
                 {skills.map((skill,idx)=>(
                     <div className='h-[9rem] mr-10 opacity-45' key={idx}>
-                        <img src={skill.logo} alt={skill.alt} className='absolute brightness-[.30] h-full w-full object-cover -z-10' />
+                        <img src={skill.logo} alt={skill.alt} className='h-full w-full' />
                     </div>
                 ))}
             </Marquee>

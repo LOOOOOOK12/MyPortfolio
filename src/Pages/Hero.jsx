@@ -28,13 +28,13 @@ function Hero() {
                     </SwiperSlide>  
                 ))}
             </Swiper>
-            <Marquee
+            {/* <Marquee
                 gradientColor="#050d18"
             className='absolute rotate-[-28deg] -top-10 -left-28 -z-30 w-full'>
             {skills.map((skill)=>(
                 <img src={skill.logo} alt={skill.alt} className='h-[8rem] mr-10 opacity-45' />
             ))}
-            </Marquee>
+            </Marquee> */}
             <div className='flex flex-col items-center gap-5 z-10'>
                 <img src={pfp} alt="" className='h-40 md:h-52 rounded-full' />
                 <h1 className='text-2xl font-semibold md:text-5xl'>Luke Symon A. Alamil</h1>

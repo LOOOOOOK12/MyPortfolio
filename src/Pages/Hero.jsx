@@ -3,6 +3,9 @@ import pfp from '../assets/Images/pfp.jpg'
 import { heroSwiper } from '../Constants/heroSwiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay,EffectFade } from 'swiper/modules';
+import Marquee from "react-fast-marquee";
+import { skills } from '../Constants/skills'
+import SkillsContainer from './Skills';
 import 'swiper/css/effect-fade';
 import 'swiper/css/autoplay';
 import 'swiper/css';
@@ -22,10 +25,17 @@ function Hero() {
                 >
                 {heroSwiper.map((img,idx)=>(
                     <SwiperSlide key={idx} className='w-full h-full'>
-                        <img src={img.image} alt={img.alt} className='absolute brightness-[.40] h-full w-full object-cover -z-10'/>
+                        <img src={img.image} alt={img.alt} className='absolute brightness-[.30] h-full w-full object-cover -z-10'/>
                     </SwiperSlide>  
                 ))}
             </Swiper>
+            <Marquee
+                gradientColor="#050d18"
+            className='absolute rotate-[-30deg] top-0 right-[10rem]'>
+            {skills.map((skill)=>(
+                <img src={skill.logo} alt={skill.alt} className='h-[8rem] mr-10 opacity-45' />
+            ))}
+            </Marquee>
             <div className='flex flex-col items-center gap-5 z-10'>
                 <img src={pfp} alt="" className='h-40 md:h-52 rounded-full' />
                 <h1 className='text-2xl font-semibold md:text-5xl'>Luke Symon A. Alamil</h1>

@@ -5,7 +5,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay,EffectFade } from 'swiper/modules';
 import Marquee from "react-fast-marquee";
 import { skills } from '../Constants/skills'
-import SkillsContainer from './Skills';
 import 'swiper/css/effect-fade';
 import 'swiper/css/autoplay';
 import 'swiper/css';
@@ -31,7 +30,7 @@ function Hero() {
             </Swiper>
             <Marquee
                 gradientColor="#050d18"
-            className='absolute rotate-45 -top-10 -left-28 -z-30'>
+            className='absolute rotate-[-28deg] -top-10 -left-28 -z-30 w-full'>
             {skills.map((skill)=>(
                 <img src={skill.logo} alt={skill.alt} className='h-[8rem] mr-10 opacity-45' />
             ))}

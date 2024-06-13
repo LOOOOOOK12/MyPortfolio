@@ -6,15 +6,7 @@ function Footer() {
     return (
         <div className='flex flex-col gap-5 justify-center items-center text-slate-50 h-40'>
             <p>Made with love by 💙 Luke Symon Alamil</p>
-            {/* <div className='flex gap-7'>
-                {links.map((l)=>(
-                    <Logos
-                        logo ={l.logo}
-                        alt={l.alt}
-                        link={l.link}
-                    />
-                ))}
-            </div> */}
+            <p>Still in development~</p>
         </div>
     )
 }

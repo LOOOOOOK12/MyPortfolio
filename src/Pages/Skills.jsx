@@ -37,6 +37,9 @@ function Skills() {
                         disableOnInteraction: false
                     }}
                     breakpoints={{
+                            320: {
+                                slidesPerView: 1,
+                            },
                             375: {
                                 slidesPerView: 1,
                             },

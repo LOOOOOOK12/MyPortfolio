@@ -9,8 +9,8 @@ function AboutMe() {
                 <img src={image} alt="proofule" className='h-[20rem] w-[25rem] md:w-[750px] md:h-[400px] rounded-md'/>
                 <div className='flex flex-col gap-3'>
                     <h1 className='text-3xl md:text-5xl font-semibold'>About Me</h1>
-                    <p className='text-base md:text-xl leading-8'>I'm Luke Symon A. Alamil, 21 years old and currently a student and taking Bachelor of Science in Information Technology in STI College legazpi. I love arts and design! and since I'm an IT student I focused on
-                        studying Web Development.  
+                    <p className='text-base md:text-xl leading-8'>I'm Luke Symon A. Alamil, 21 years old and currently a student and taking Bachelor of Science in Information Technology in STI College legazpi.
+                        I love arts and design which led me to study Web development which involves designing Websites.  
                     </p>
                     <a className="underline underline-offset-8 hover:text-primary transition ease-in delay-75 text-2xl" href={sampleCv} download >Download CV</a>
                 </div>

@@ -30,7 +30,7 @@ function Hero() {
             </Swiper>
             <Marquee
                 direction='down'
-                className="absolute h-full top-[3rem] md:top-0 md:right-[45rem] md:bottom-0"  
+                className="absolute h-full top-[3rem] left-0 md:top-0 md:right-[45rem] md:bottom-0"  
             >
                 {skills.map((skill)=>(
                     <img src={skill.logo} alt={skill.alt} className=' h-[20rem] w-[20rem] m-4'/>

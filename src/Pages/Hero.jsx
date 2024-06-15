@@ -20,7 +20,7 @@ function Hero() {
                 delay: 5000
                 }}
                 loop
-                className='absolute top-[3rem] md:top-[2rem] md:bottom-0 md:right-1 size-[30rem] rounded-full '
+                className='absolute top-[3rem] md:top-[2rem] md:bottom-0 md:right-0 size-[30rem] rounded-full'
                 >
                 {heroSwiper.map((img,idx)=>(
                     <SwiperSlide key={idx} className='w-full h-full'>
@@ -29,11 +29,12 @@ function Hero() {
                 ))}
             </Swiper>
             <Marquee
-                direction='down'
-                className="absolute h-full top-[3rem] left-0 md:top-0 md:right-[45rem] md:bottom-0"  
+                direction='left'
+                autoFill = 'true'
+                className="absolute w-[50rem] h-full top-0 left-0 opacity-45"  
             >
                 {skills.map((skill)=>(
-                    <img src={skill.logo} alt={skill.alt} className=' h-[20rem] w-[20rem] m-4'/>
+                    <img src={skill.logo} alt={skill.alt} className='h-[10rem] w-[10rem] m-4'/>
                 ))}
             </Marquee>
             <div className='flex flex-col items-center gap-5 z-10'>

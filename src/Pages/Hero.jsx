@@ -12,7 +12,7 @@ import 'swiper/css';
 function Hero() {
     return (
         <div id='Hero' className='relative h-screen overflow-hidden flex flex-col justify-center items-center text-center'>
-            <Swiper
+            {/* <Swiper
                 modules={[Autoplay,EffectFade]}
                 effect='fade'
                 autoplay = {{
@@ -27,7 +27,7 @@ function Hero() {
                         <img src={img.image} alt={img.alt} className='absolute brightness-[.30] h-full w-full object-cover -z-10'/>
                     </SwiperSlide>  
                 ))}
-            </Swiper>
+            </Swiper> */}
             <Marquee
                 direction='left'
                 autoFill = {true}
@@ -42,8 +42,8 @@ function Hero() {
             </Marquee>
             <div className='flex flex-col items-center gap-5 z-10'>
                 <img src={pfp} alt="me" className='h-40 md:h-52 rounded-full' />
-                <h1 className='text-2xl font-semibold md:text-6xl'>Luke Symon A. Alamil</h1>
-                <h1 className='text-xl md:text-3xl text-[#8BB3EB]'>Web Developer</h1>
+                <h1 className='text-2xl font-semibold md:text-5xl'>Luke Symon A. Alamil</h1>
+                <h1 className='text-xl md:text-3xl text-primary'>Web Developer</h1>
             </div>
         </div>
     )

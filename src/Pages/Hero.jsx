@@ -30,8 +30,11 @@ function Hero() {
             </Swiper> */}
             <Marquee
                 direction='left'
-                autoFill = 'true'
-                className="absolute w-[50rem] h-full top-0 left-0 opacity-45"  
+                autoFill = {true}
+                gradient = {true}
+                gradientColor='#050d18'
+                style={{position:'absolute', width:"100%", height:"100%", top:0, left:0, opacity:0.45}}
+               //className="absolute w-full h-full top-0 left-0 opacity-45"  
             >
                 {skills.map((skill)=>(
                     <img src={skill.logo} alt={skill.alt} className='h-[10rem] w-[10rem] m-4'/>

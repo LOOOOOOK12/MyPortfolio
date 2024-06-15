@@ -30,10 +30,10 @@ function Skills() {
                         minimumVelocity: 0.02,
                         momentumVelocityRatio: 1,
                         momentumRatio: 1,
-                        momentumBounce: false
+                        momentumBounce: true
                     }}
                     autoplay = {{
-                        delay: 2000,
+                        delay: 1000,
                         disableOnInteraction: false
                     }}
                     breakpoints={{

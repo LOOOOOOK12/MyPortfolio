@@ -33,11 +33,11 @@ function Hero() {
                 autoFill = {true}
                 gradient = {true}
                 gradientColor='#050d18'
-                style={{position:'absolute', width:"100%", height:"100%", top:0, left:0, opacity:0.45}}
+                style={{position:'absolute', width:"100%", height:"100%", top:0, left:0, opacity:0.30, zIndex:5}}
                //className="absolute w-full h-full top-0 left-0 opacity-45"  
             >
                 {skills.map((skill)=>(
-                    <img src={skill.logo} alt={skill.alt} className='h-[10rem] w-[10rem] m-4'/>
+                    <img src={skill.logo} alt={skill.alt} className='h-[10rem] w-[10rem] m-4 z-10 '/>
                 ))}
             </Marquee>
             <div className='flex flex-col items-center gap-5 z-10'>

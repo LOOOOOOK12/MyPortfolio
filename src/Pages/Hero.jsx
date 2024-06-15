@@ -11,7 +11,7 @@ import 'swiper/css';
 
 function Hero() {
     return (
-        <div id='Hero' className='relative h-screen overflow-hidden flex flex-col justify-center items-center text-center'>
+        <div id='Hero' className='relative h-screen overflow-hidden flex justify-center items-center text-center'>
             <Swiper
                 modules={[Autoplay,EffectFade]}
                 effect='fade'
@@ -30,7 +30,7 @@ function Hero() {
             </Swiper>
             <Marquee
                 direction='down'
-                className="absolute w-full h-full top-0 left-0-0 right-[20rem] opacity-40"
+                className="absolute w-full h-full top-0 right-[20rem] opacity-40"
             >
                 {skills.map((skill)=>(
                     <img src={skill.logo} alt={skill.alt} className='size-[9rem] m-4'/>

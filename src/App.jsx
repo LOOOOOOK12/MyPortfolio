@@ -17,6 +17,10 @@ function App() {
       <div className='absolute overflow-hidden size-[10rem] -z-10 top-[24rem] left-[20rem] rounded-full blur-3xl opacity-[0.3] bg-accent'></div>
       <div className='absolute overflow-hidden size-[15rem] -z-10 top-[68rem] left-[9rem] rounded-full blur-3xl opacity-[0.3] bg-accent'></div>
       <div className='absolute overflow-hidden size-[15rem] -z-10 top-[107rem] left-[7rem] rounded-full blur-3xl opacity-[0.4] bg-accent'></div>
+      {/* sa may contacts */}
+      <div className='absolute overflow-hidden size-[12rem] -z-10 md:top-[233rem] md:left-[13rem] rounded-full blur-3xl opacity-[0.4] bg-accent'></div>
+      <div className='absolute overflow-hidden size-[20rem] -z-10 md:top-[238rem] md:left-[40rem] rounded-full blur-3xl opacity-[0.4] bg-accent'></div>
+      <div className='absolute overflow-hidden size-[16rem] -z-10 md:top-[252rem] md:left-[13rem] rounded-full blur-3xl opacity-[0.4] bg-accent'></div>
       <Nav/>
       <Hero/>
       <AboutMe/>

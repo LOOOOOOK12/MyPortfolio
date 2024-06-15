@@ -42,8 +42,8 @@ function Hero() {
             </Marquee>
             <div className='flex flex-col items-center gap-5 z-10'>
                 <img src={pfp} alt="me" className='h-40 md:h-52 rounded-full' />
-                <h1 className='text-2xl font-semibold md:text-5xl'>Luke Symon A. Alamil</h1>
-                <h1 className='text-xl md:text-2xl text-[#8BB3EB]'>💻 Aspiring Web Developer 💻</h1>
+                <h1 className='text-2xl font-semibold md:text-6xl'>Luke Symon A. Alamil</h1>
+                <h1 className='text-xl md:text-3xl text-[#8BB3EB]'>Web Developer</h1>
             </div>
         </div>
     )

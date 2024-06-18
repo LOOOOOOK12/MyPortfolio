@@ -1,8 +1,6 @@
 import React from 'react'
 import pfp from '../assets/Images/pfp.jpg'
-import { heroSwiper } from '../Constants/heroSwiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay,EffectFade } from 'swiper/modules';
+import { TypeAnimation } from 'react-type-animation';
 import Marquee from "react-fast-marquee";
 import { skills } from '../Constants/skills'
 import 'swiper/css/effect-fade';
@@ -12,28 +10,12 @@ import 'swiper/css';
 function Hero() {
     return (
         <div id='Hero' className='relative h-screen overflow-hidden flex flex-col justify-center items-center text-center'>
-            {/* <Swiper
-                modules={[Autoplay,EffectFade]}
-                effect='fade'
-                autoplay = {{
-                disableOnInteraction:false,
-                delay: 5000
-                }}
-                loop
-                className='absolute top-[3rem] md:top-[2rem] md:bottom-0 md:right-0 size-[30rem] rounded-full'
-                >
-                {heroSwiper.map((img,idx)=>(
-                    <SwiperSlide key={idx} className='w-full h-full'>
-                        <img src={img.image} alt={img.alt} className='absolute brightness-[.30] h-full w-full object-cover -z-10'/>
-                    </SwiperSlide>  
-                ))}
-            </Swiper> */}
             <Marquee
                 direction='left'
                 autoFill = {true}
                 gradient = {true}
                 gradientColor='#050d18'
-                style={{position:'absolute', width:"100%", height:"100%", top:0, left:0, opacity:0.30, zIndex:5}}
+                style={{position:'absolute', width:"100%", height:"100%", top:0, left:0, opacity:0.6, zIndex:5}}
                //className="absolute w-full h-full top-0 left-0 opacity-45"  
             >
                 {skills.map((skill)=>(
@@ -43,7 +25,14 @@ function Hero() {
             <div className='flex flex-col items-center gap-5 z-10'>
                 <img src={pfp} alt="me" className='h-40 md:h-52 rounded-full' />
                 <h1 className='text-2xl font-semibold md:text-5xl'>Luke Symon A. Alamil</h1>
-                <h1 className='text-xl md:text-3xl text-primary'>Web Developer</h1>
+                <TypeAnimation
+                    sequence={['Web Developer', 4000, 'Designer', 4000, 'Student', 4000]}
+                    style={{ fontSize: '2em' , fontFamily: 'Chivo', color:'#8bb3eb'}}
+                    repeat={Infinity}
+                    wrapper='h2'
+                    speed={20}
+                    deletionSpeed={10}
+                />
             </div>
         </div>
     )

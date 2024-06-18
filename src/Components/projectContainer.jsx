@@ -16,7 +16,7 @@ function projectContainer({image,alt,title,desc,language,github,link}) {
                 </div>
                 <div className='flex gap-3'>
                     <a href={github}><img src={Github} alt="Github" /></a>
-                    <a href={link}><img src={Link} alt="Link" /></a>
+                    <a href={link} target="_blank"><img src={Link} alt="Link" /></a>
                 </div>
             </div>
         </div>

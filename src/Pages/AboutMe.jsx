@@ -1,5 +1,4 @@
 import React from 'react'
-import image from '../assets/Images/album.png'
 import sampleCv from '../assets/files/sample.pdf'
 import pfp from '../assets/Images/pfp.jpg'
 

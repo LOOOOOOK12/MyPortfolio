@@ -15,7 +15,7 @@ function Nav() {
                 <a href='#Hero'><h1 className='text-2xl cursor-default text-gray-300 underline underline-offset-8 decoration-blue-400 -rotate-6'>Loak☕</h1></a>
                 <ul className='flex gap-8 max-[780px]:hidden'>
                     {navLinks.map((l) => (
-                        <a href={l.href}>{l.link}</a>
+                        <a href={l.href} className='hover:text-primary  transition ease-in delay-75 text-base font-semibold'>{l.link}</a>
                     ))}
                 </ul>
                 <div className='min-[770px]:hidden'>

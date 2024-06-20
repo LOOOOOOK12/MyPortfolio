@@ -30,7 +30,7 @@ export const projects = [
         desc: "Dream Saver website where you can write your recent dreams!!! (SERN Stack)",
         github:"https://github.com/LOOOOOOK12/DreamSnare",
         link:"https://github.com/LOOOOOOK12/DreamSnare",
-        language:["SQL","ExpressJs","ReactJs","NextJs","TailwindCss"]
+        language:["SQL","ExpressJs","ReactJs","NodeJs","TailwindCss"]
     },
     {
         image: BookingWebsite,

@@ -1,6 +1,7 @@
 import React from 'react'
 import pfp from '../assets/Images/pfp.jpg'
 import { TypeAnimation } from 'react-type-animation';
+import { motion } from "framer-motion"
 import Marquee from "react-fast-marquee";
 import { skills } from '../Constants/skills'
 import 'swiper/css/effect-fade';
@@ -22,7 +23,11 @@ function Hero() {
                     <img src={skill.logo} alt={skill.alt} className='h-[10rem] w-[10rem] m-4 z-10 '/>
                 ))}
             </Marquee>
-            <div className='flex flex-col items-center gap-5 z-10'>
+            <motion.div
+                initial={{opacity: 0, y: -100 }}
+                animate={{opacity: 1, y: 0 }}
+                transition={{ duration: 1, type:"spring", delay: .1 }}
+                className='flex flex-col items-center gap-5 z-10'>
                 <img src={pfp} alt="me" className='h-40 md:h-52 rounded-full' />
                 <h1 className='text-2xl font-semibold md:text-5xl'>Luke Symon A. Alamil</h1>
                 <TypeAnimation
@@ -33,7 +38,7 @@ function Hero() {
                     speed={20}
                     deletionSpeed={10}
                 />
-            </div>
+            </motion.div>
         </div>
     )
 }

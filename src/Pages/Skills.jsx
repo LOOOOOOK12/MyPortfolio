@@ -5,6 +5,7 @@ import { Autoplay, FreeMode } from 'swiper/modules';
 import 'swiper/css/free-mode';
 import 'swiper/css/autoplay';
 import 'swiper/css';
+import { motion } from 'framer-motion';
 
 export function SkillsContainer({logo,alt,title}) {
     return (
@@ -18,8 +19,24 @@ export function SkillsContainer({logo,alt,title}) {
 function Skills() {
     return (
         <div className='flex flex-col items-center justify-center p-8 gap-4 bg-transparent'>
-            <h1 className='text-4xl md:text-6xl font-semibold mb-8'>Technologies</h1>
-            <h2 className='text-2xl md:text-3xl mb-8'>That I used are...</h2>
+            <motion.h1
+                initial={{ opacity: 0, y:100 }}
+                whileInView={{ opacity: 1, y:0 }}
+                transition={{ duration: 1 }}
+                viewport={{ once:true }}
+                className='text-4xl md:text-6xl font-semibold mb-8'>Technologies</motion.h1>
+            <motion.h2 
+                initial={{ opacity: 0, y:100 }}
+                whileInView={{ opacity: 1, y:0 }}
+                transition={{ duration: 1}}
+                viewport={{ once:true }}
+                className='text-2xl md:text-3xl mb-8'>That I used are...</motion.h2>
+            <motion.div
+                initial={{ opacity: 0, y:100 }}
+                whileInView={{ opacity: 1, y:0 }}
+                transition={{ duration: 1 }}
+                viewport={{ once:true }}
+                className='w-full h-full'>
                 <Swiper
                     modules={[Autoplay,FreeMode]}
                     slidesPerView={5}
@@ -33,7 +50,7 @@ function Skills() {
                         momentumBounce: true
                     }}
                     autoplay = {{
-                        delay: 1000,
+                        delay: 2000,
                         disableOnInteraction: false
                     }}
                     breakpoints={{
@@ -66,7 +83,7 @@ function Skills() {
                         </SwiperSlide>  
                     ))}
                 </Swiper>
-            
+            </motion.div>
         </div>
     )
 }

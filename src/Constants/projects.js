@@ -21,7 +21,7 @@ export const projects = [
         desc: "E-commerce Apple Website",
         github:"https://github.com/LOOOOOOK12/Apple",
         link:"https://mansanas-net.netlify.app",
-        language:["Html","Css","Javascript", "Swiper-Js"]
+        language:["Html","Css","Javascript","Swiper-Js"]
     },
     {
         image: dreamSnare,

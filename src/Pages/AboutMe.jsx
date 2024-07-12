@@ -29,7 +29,7 @@ function AboutMe() {
                         whileInView={{ opacity: 1, x:0 }}
                         transition={{ duration: 1 }}
                         viewport={{ once:true }}
-                        className="underline underline-offset-8 hover:text-primary transition ease-in delay-75 text-2xl" href={sampleCv} download >Download CV</motion.a>
+                        className="underline underline-offset-8 hover:text-primary transition ease-in delay-75 text-2xl" >Download CV</motion.a>
                 </div>
             </div>
         </div>

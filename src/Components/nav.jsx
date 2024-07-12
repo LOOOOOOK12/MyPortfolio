@@ -16,7 +16,7 @@ function Nav() {
                 initial={{opacity: 0, y: -100 }}
                 animate={{opacity: 1, y: 0 }}
                 transition={{ duration: 3, type:"spring", delay: 1 }}
-                className='px-8 p-5 w-full top-0 z-50 fixed flex justify-between items-center text-center'>
+                className='px-8 py-3 w-full bg-background bg-opacity-75 backdrop-blur border-b-[0.01rem] border-b-[#303051] top-0 z-50 fixed flex justify-between items-center text-center'>
                 <a href='#Hero'><h1 className='text-2xl cursor-default text-gray-300 underline underline-offset-8 decoration-blue-400 -rotate-6'>Loak☕</h1></a>
                 <ul className='flex gap-8 max-[780px]:hidden'>
                     {navLinks.map((l) => (

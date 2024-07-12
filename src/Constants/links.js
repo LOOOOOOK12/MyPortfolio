@@ -1,19 +1,22 @@
-import github from '../assets/logos/github.png'
+import { FaGithub, FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 
 export const links = [
     {
-        logo: github,
+        type: 'icon',
+        icon: FaGithub,
         alt: "Github",
         link: "https://github.com/LOOOOOOK12",
     },
     {
-        logo: github,
-        alt: "Github",
-        link: "https://github.com/LOOOOOOK12",
+        type: 'icon',
+        icon: FaFacebookSquare,
+        alt: "Facebook",
+        link: "https://facebook.com",
     },
     {
-        logo: github,
-        alt: "Github",
-        link: "https://github.com/LOOOOOOK12",
+        type: 'icon',
+        icon: FaLinkedin,
+        alt: "LinkedIn",
+        link: "https://www.linkedin.com/in/luke-symon-alamil-a9b924252/",
     },
-]
+];

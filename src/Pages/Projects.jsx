@@ -12,7 +12,7 @@ function Projects() {
                 viewport={{ once: true }}
                 transition={{duration:1 }}
                 className='text-5xl md:text-6xl font-semibold'>Projects</motion.h1>
-            <div className='flex flex-col items-center justify-center gap-16 w-full'>
+            <div className='flex flex-col items-center justify-center gap-12 w-full'>
                 {projects.map((p,idx)=>(
                     <motion.div
                         initial={{opacity: 0, y: 50 }}

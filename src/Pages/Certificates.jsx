@@ -5,7 +5,9 @@ import { motion } from 'framer-motion';
 function CertiContainer({certificate,alt,title}) {
     return (
         <div className='flex flex-col items-center gap-3'>
-            <img className='h-64 rounded-md' src={certificate} alt={alt} />
+            <div className='h-full w-full'>
+                <img className='rounded-md bg-contain' src={certificate} alt={alt} />
+            </div>
             <h1 className='text-2xl'>{title}</h1>
         </div>
     );

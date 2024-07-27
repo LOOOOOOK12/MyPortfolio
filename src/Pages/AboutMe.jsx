@@ -1,6 +1,7 @@
 import React from 'react'
 import pfp from '../assets/Images/pfp.jpg'
 import { motion } from 'framer-motion'
+import Resume from '../assets/files/Resume.pdf'
 
 function AboutMe() {
     return (
@@ -31,7 +32,7 @@ function AboutMe() {
                         transition={{ duration: 1 }}
                         viewport={{ once:true }}
                         className="underline underline-offset-8 hover:text-primary transition ease-in delay-75 text-2xl" 
-                        href='src\assets\files\Resume.pdf'
+                        href={Resume}
                         target='_blank' >Download CV</motion.a>
                 </div>
             </div>

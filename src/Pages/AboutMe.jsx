@@ -5,8 +5,8 @@ import Resume from '../assets/files/Resume.pdf'
 
 function AboutMe() {
     return (
-        <div id='AboutMe' className='p-8'>
-            <div className='flex flex-col p-4 bg-[#0e0e1a] border-[1px] border-[#4d5975] rounded-md gap-10 justify-center items-center w-full md:flex-row'>
+        <div id='AboutMe' className='p-8 items-center flex flex-col'>
+            <div className='flex flex-col max-w-[60rem] p-4 bg-[#0e0e1a] border-[1px] border-[#4d5975] rounded-md gap-5 justify-center items-center md:flex-row'>
                 <div className='w-full h-full'>
                     <img src={pfp} alt="Luke Symon Alamil" className='w-full h-full rounded-md bg-contain'/>
                 </div>

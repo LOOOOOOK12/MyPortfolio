@@ -3,6 +3,7 @@ import personalWebsite from "../assets/logos/projectsLogo/personalWebsite.png"
 import appleWebsite from "../assets/logos/projectsLogo/Apples.png"
 import dreamSnare from "../assets/logos/projectsLogo/dreamSnare.png"
 import BookingWebsite from "../assets/logos/projectsLogo/bookingWebsite.png"
+import FriendLister from "../assets/logos/projectsLogo/friendLister.png"
 
 export const projects = [
     {
@@ -33,12 +34,12 @@ export const projects = [
         language:["SQL","ExpressJs","ReactJs","NodeJs","TailwindCss"]
     },
     {
-        image: BookingWebsite,
-        alt:"alt",
-        title:"Booking Website",
-        desc: "Simple Booking website using react js and tailwind",
-        github:"https://github.com/LOOOOOOK12/Booking-Website",
-        link:"https://booking-website-6x7h31u8k-looooook12s-projects.vercel.app",
-        language:["ReactJs","Router-Dom","Tailwind","SwiperJs"]
+        image: FriendLister,
+        alt:"Friend Lister Website",
+        title:"Friend Lister Website",
+        desc: "Friend Lister Get to know your friends more!!!",
+        github:"https://github.com/LOOOOOOK12/Friend-Lister",
+        link:"https://github.com/LOOOOOOK12/Friend-Lister",
+        language:["MongoDb","Express","ReactJs","NodeJs","Typescript","TailwindCss"]
     }
 ]

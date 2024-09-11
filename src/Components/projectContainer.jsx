@@ -6,7 +6,7 @@ function projectContainer({image,alt,title,desc,language,github,link}) {
     return (
         <div className='flex flex-col gap-4 p-4 bg-[#0e0e1a] border-[1px] border-[#4d5975] rounded-md  w-full justify-center items-center md:flex-row md:max-w-3xl'>
             <div className='h-full w-full md:w-[65rem] md:h-[17rem]'>
-                <img src={image} alt={alt} className='h-full w-full bg-contain rounded-md'/>
+                <a href={link} target='_blank'><img src={image} alt={alt} className='h-full w-full bg-contain rounded-md'/></a>
             </div>
             <div className='flex flex-col gap-3 w-full'>
                 <h1 className='text-4xl'>{title}</h1>

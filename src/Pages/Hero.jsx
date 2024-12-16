@@ -1,5 +1,5 @@
 import React from 'react'
-import pfp from '../assets/Images/pfp.jpg'
+import pfp from '../assets/Images/pfp.jpeg'
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion"
 import Marquee from "react-fast-marquee";
@@ -19,7 +19,6 @@ function Hero() {
                 gradient = {true}
                 gradientColor='#050d18'
                 style={{position:'absolute', width:"100%", height:"100%", top:0, left:0, opacity:0.4, zIndex:5}}
-               //className="absolute w-full h-full top-0 left-0 opacity-45"  
             >
                 {skills.map((skill)=>(
                     <img src={skill.logo} alt={skill.alt} className='h-[10rem] w-[10rem] m-4 z-10 '/>

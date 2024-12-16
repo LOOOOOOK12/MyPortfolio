@@ -6,7 +6,7 @@ function CertiContainer({certificate,alt,title}) {
     return (
         <div className='flex flex-col items-center gap-3'>
             <div className='h-full w-full'>
-                <img className='rounded-md bg-contain' src={certificate} alt={alt} />
+                <img className='max-h-80 rounded-md bg-contain' src={certificate} alt={alt} />
             </div>
             <h1 className='text-2xl'>{title}</h1>
         </div>

@@ -1,9 +1,8 @@
-import js from "../assets/logos/progLogos/js.png"
 import personalWebsite from "../assets/logos/projectsLogo/personalWebsite.png"
 import appleWebsite from "../assets/logos/projectsLogo/Apples.png"
 import dreamSnare from "../assets/logos/projectsLogo/dreamSnare.png"
-import BookingWebsite from "../assets/logos/projectsLogo/bookingWebsite.png"
 import FriendLister from "../assets/logos/projectsLogo/friendLister.png"
+import unsplash from "../assets/logos/projectsLogo/unsplash.png"
 
 export const projects = [
     {
@@ -41,5 +40,14 @@ export const projects = [
         github:"https://github.com/LOOOOOOK12/Friend-Lister",
         link:"https://github.com/LOOOOOOK12/Friend-Lister",
         language:["MongoDb","Express","ReactJs","NodeJs","Typescript","TailwindCss"]
+    },
+    {
+        image: unsplash,
+        alt:"Unsplash Api website",
+        title:"Booteg Unsplash using Unsplash Api",
+        desc: "Simple photo website using Unsplash API",
+        github:"https://github.com/LOOOOOOK12/Bootleg-UnsplashApi-using-Unsplash-Api-",
+        link:"https://bootleg-unsplash-api-using-unsplash-api.vercel.app",
+        language:["ReactJs","Typescript","TailwindCss","React Router","REST Api"]
     }
 ]

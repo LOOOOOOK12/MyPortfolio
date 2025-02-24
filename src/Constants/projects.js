@@ -2,6 +2,7 @@ import personalWebsite from "../assets/logos/projectsLogo/personalWebsite.png"
 import appleWebsite from "../assets/logos/projectsLogo/Apples.png"
 import dreamSnare from "../assets/logos/projectsLogo/dreamSnare.png"
 import FriendLister from "../assets/logos/projectsLogo/friendLister.png"
+import AN from "../assets/logos/projectsLogo/A&N.png"
 import unsplash from "../assets/logos/projectsLogo/unsplash.png"
 
 export const projects = [
@@ -51,7 +52,7 @@ export const projects = [
         language:["ReactJs","Typescript","TailwindCss","React Router","REST Api"]
     },
     {
-        image: unsplash,
+        image: AN,
         alt:"A&N Fabrication Website",
         title:"A&N Fabrication Website",
         desc: "A Fabrication Website for A&N Fabrication",

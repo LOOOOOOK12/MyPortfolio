@@ -49,5 +49,14 @@ export const projects = [
         github:"https://github.com/LOOOOOOK12/Bootleg-UnsplashApi-using-Unsplash-Api-",
         link:"https://bootleg-unsplash-api-using-unsplash-api.vercel.app",
         language:["ReactJs","Typescript","TailwindCss","React Router","REST Api"]
-    }
+    },
+    {
+        image: unsplash,
+        alt:"A&N Fabrication Website",
+        title:"A&N Fabrication Website",
+        desc: "A Fabrication Website for A&N Fabrication",
+        github:"https://github.com/LOOOOOOK12/an-fabrication-website",
+        link:"https://an-fabrication-website.vercel.app",
+        language:["NextJs","React","Typescript","TailwindCss","React Router","Swiper-Js"]
+    },
 ]

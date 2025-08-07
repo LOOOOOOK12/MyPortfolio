@@ -1,7 +1,7 @@
 import React from 'react'
 import pfp from '../assets/Images/pfp.jpeg'
 import { motion } from 'framer-motion'
-import Resume from '../assets/files/Resume.pdf'
+import Resume from '../assets/files/RESUME_LUKE_ALAMIL.pdf'
 
 function AboutMe() {
     return (

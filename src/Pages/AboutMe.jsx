@@ -33,7 +33,7 @@ function AboutMe() {
                         viewport={{ once:true }}
                         className="underline underline-offset-8 hover:text-primary transition ease-in delay-75 text-2xl" 
                         href={Resume}
-                        target='_blank' >Download Résumé</motion.a>
+                        target='_blank' >Download Resume</motion.a>
                 </div>
             </div>
         </div>
